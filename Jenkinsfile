@@ -10,7 +10,7 @@ node {
 		log.info("staiwa")
 	}
 
-	currentBuild.result == 'FAILURE'
+	currentBuild.result = 'FAILURE'
 	
 	stage('login with Map') {
 		log.error(name:"anas", age: 31)
