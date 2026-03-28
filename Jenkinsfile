@@ -20,6 +20,10 @@ node {
 		customNode()
 	}
 
+	stage('Mailing'){
+		mail subject: 'Email Subject', body: 'Email Body Content', to: 'elhadadmohammed665@gmail.com'
+	}
+
 }
 
 
