@@ -1,7 +1,7 @@
-@Library('my-lib') _
+// @Library('my-lib') _
 
 node {
-
+	library 'my-lib'
 	stage('initialisation') {
 		log()
 	}
