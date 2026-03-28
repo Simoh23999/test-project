@@ -2,4 +2,5 @@
 
 node {
 	log.info("staiwa")
+	log()
 }
