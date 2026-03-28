@@ -10,9 +10,6 @@ node {
 		log.info("staiwa")
 	}
 
-	if(currentBuild.result == 'SUCCESS'){
-		echo "yaaaaaaaaaaaaaaay ###"
-	}
 	stage('login with Map') {
 		log.error(name:"anas", age: 31)
 	}
@@ -21,6 +18,10 @@ node {
 		customNode()
 	}
 
+}
+
+if(currentBuild.result == 'SUCCESS'){
+	echo "yaaaaaaaaaaaaaaay ###"
 }
 
 
