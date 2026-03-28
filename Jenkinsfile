@@ -14,3 +14,5 @@ node {
 		log.error(name:"anas", this, age: 31)
 	}
 }
+
+customNode()
