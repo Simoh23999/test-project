@@ -3,5 +3,5 @@
 node {
 	log.info("staiwa")
 	log()
-	log.error(name:"anas", this, age:"30")
+	log.error(name:"anas", this, age:"31")
 }
