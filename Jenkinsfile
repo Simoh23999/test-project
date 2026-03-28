@@ -1,7 +1,7 @@
-// @Library('my-lib') _
+@Library('my-lib') _
 
 node {
-	library 'my-lib'
+	// library 'my-lib'
 	stage('initialisation') {
 		log()
 	}
@@ -10,6 +10,9 @@ node {
 		log.info("staiwa")
 	}
 
+	if(currentBuild.result == 'SUCCESS'){
+		echo "yaaaaaaaaaaaaaaay ###"
+	}
 	stage('login with Map') {
 		log.error(name:"anas", age: 31)
 	}
