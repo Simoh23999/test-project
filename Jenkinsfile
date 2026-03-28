@@ -1,5 +1,5 @@
 @Library('my-lib') _
 
 node {
-	log("staiwa")
+	log(this,"staiwa")
 }
