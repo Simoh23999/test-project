@@ -3,4 +3,5 @@
 node {
 	log.info("staiwa")
 	log()
+	log.info([name:"anas"], this)
 }
