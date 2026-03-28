@@ -11,8 +11,13 @@ node {
 	}
 
 	stage('login with Map') {
-		log.error(name:"anas", this, age: 31)
+		log.error(name:"anas", age: 31)
 	}
+
+	stage('login with Map') {
+		customNode()
+	}
+
 }
 
-customNode()
+
